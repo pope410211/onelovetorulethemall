@@ -3,25 +3,38 @@
  nav {
 
 
-ul {
-  margin: 0;
-  padding: 0;
+#menu-1 {
+  float: left;
   list-style: none;
-  overflow: hidden;
+
+
+  li {
+
+
+
+  a {
+
+    padding: 1em 1em 0em 2em;
+    text-decoration: none;
+
+
+
+  &:hover {
+    color: red;
+  }
+
+    }
+  }
+}
+#menu-2 {
+  @extend #menu-1;
   float: right;
+}
 
 .menu{
 margin: 2em;
 }
 
-
-
-
-.btn {
-  display: none;
-
-
-}
 
 
 li {
@@ -41,39 +54,8 @@ a {
 
   }
 }
-} // end desktop view
-
-// mobile view
-@media (max-width: $mobile) {
 
 
-  ul{
-    margin: 0 auto;
-    clear: both;
-    display: inline-block;
-
-
-  li {
-    float: none;
-
-  }
-  .btn {
-    display: block;
-
-  }
-  .menu li a {
-      padding: 0px 20px 10px 20px;
-  }
-   .menu {
-      display: none;
-  }
- li:hover .menu {
-      display: block;
-      z-index: 100;
-      position: absolute;
-    }
-  }
-}//end media query
 
 
 }// end nav
@@ -101,8 +83,10 @@ a {
 
         list-style: none;
         float: left;
+        margin: 1em;
 
         a {
+          text-decoration: none;
 
         }
 
