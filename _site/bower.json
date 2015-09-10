@@ -1,0 +1,17 @@
+{
+  "name": "onelovetorulethemall",
+  "version": "0.0.1-The-Yaks-Shaved",
+  "homepage": "https://github.com/pope410211/onelovetorulethemall",
+  "authors": [
+    "Nick Pope <pope410211@gmail.com>"
+  ],
+  "description": "Wedding Site for Nick and Candace",
+  "license": "CCO",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
