@@ -1,59 +1,35 @@
 .site-header {
 
  nav {
+   display: table;
+   margin: 0 auto;
+   padding: 0 8em 0 0em;
 
 
 #menu-1 {
-  float: left;
   list-style: none;
 
 
+
   li {
-
-
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
 
   a {
-
     padding: 1em 1em 0em 2em;
     text-decoration: none;
 
-
-
   &:hover {
-    color: red;
+    color: yellow;
   }
 
     }
   }
-}
-#menu-2 {
-  @extend #menu-1;
-  float: right;
+
+
 }
 
-.menu{
-margin: 2em;
-}
-
-
-
-li {
-float: left;
-
-
-a {
-  display: block;
-  padding: 1em 1em 0em 2em;
-  text-decoration: none;
-
-
-
-&:hover {
-  color: #fff;
-}
-
-  }
-}
 
 
 
@@ -97,8 +73,9 @@ a {
 
   .copy {
     text-align: center;
-    // position: relative;
+    font-size: .75em;
     clear: both;
+
 
   }
 

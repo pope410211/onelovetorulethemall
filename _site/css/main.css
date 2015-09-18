@@ -4,27 +4,25 @@ html {
     max-width: 80%;
     background-color: #fff;
     margin: 0 auto; }
+    html body img {
+      display: block;
+      margin: 0 auto; }
 
-.site-header nav #menu-1, .site-header nav #menu-2 {
-  float: left;
-  list-style: none; }
-  .site-header nav #menu-1 li a, .site-header nav #menu-2 li a {
-    padding: 1em 1em 0em 2em;
-    text-decoration: none; }
-    .site-header nav #menu-1 li a:hover, .site-header nav #menu-2 li a:hover {
-      color: red; }
-.site-header nav #menu-2 {
-  float: right; }
-.site-header nav .menu {
-  margin: 2em; }
-.site-header nav li {
-  float: left; }
-  .site-header nav li a {
-    display: block;
-    padding: 1em 1em 0em 2em;
-    text-decoration: none; }
-    .site-header nav li a:hover {
-      color: #fff; }
+.site-header nav {
+  display: table;
+  margin: 0 auto;
+  padding: 0 8em 0 0em; }
+  .site-header nav #menu-1 {
+    list-style: none; }
+    .site-header nav #menu-1 li {
+      display: inline-block;
+      text-align: center;
+      vertical-align: middle; }
+      .site-header nav #menu-1 li a {
+        padding: 1em 1em 0em 2em;
+        text-decoration: none; }
+        .site-header nav #menu-1 li a:hover {
+          color: yellow; }
 
 .site-footer .nav-footer {
   display: table;
@@ -38,4 +36,5 @@ html {
       text-decoration: none; }
 .site-footer .copy {
   text-align: center;
+  font-size: .75em;
   clear: both; }
