@@ -3,7 +3,7 @@
  nav {
    display: table;
    margin: 0 auto;
-   padding: 0 8em 0 0em;
+   padding: 0 5em 0 0em;
 
 
 #menu-1 {
@@ -19,6 +19,7 @@
   a {
     padding: 1em 1em 0em 2em;
     text-decoration: none;
+    color: inherit;
 
   &:hover {
     color: yellow;
@@ -27,7 +28,7 @@
     }
     p {
       padding: 0em 1em 0 1em;
-      color: green;
+      color: #27462B;
       font-size: 2em;
       text-align: center;
     }
@@ -69,6 +70,7 @@
 
         a {
           text-decoration: none;
+          color: inherit;
 
         }
 
@@ -80,7 +82,8 @@
   .copy {
     text-align: center;
     font-size: .75em;
-    clear: both;
+
+
 
 
   }
