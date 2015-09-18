@@ -13,7 +13,7 @@
 
   li {
   display: inline-block;
-  text-align: center;
+
   vertical-align: middle;
 
   a {
@@ -24,6 +24,12 @@
     color: yellow;
   }
 
+    }
+    p {
+      padding: 0em 1em 0 1em;
+      color: green;
+      font-size: 2em;
+      text-align: center;
     }
   }
 

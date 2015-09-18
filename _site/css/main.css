@@ -16,13 +16,17 @@ html {
     list-style: none; }
     .site-header nav #menu-1 li {
       display: inline-block;
-      text-align: center;
       vertical-align: middle; }
       .site-header nav #menu-1 li a {
         padding: 1em 1em 0em 2em;
         text-decoration: none; }
         .site-header nav #menu-1 li a:hover {
           color: yellow; }
+      .site-header nav #menu-1 li p {
+        padding: 0em 1em 0 1em;
+        color: green;
+        font-size: 2em;
+        text-align: center; }
 
 .site-footer .nav-footer {
   display: table;
