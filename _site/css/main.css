@@ -47,7 +47,10 @@ html {
         position: absolute; }
         .site-header nav #menu-1 li .dropdown-menu li {
           margin-top: .7em;
-          display: table; }
+          display: block; }
+          .site-header nav #menu-1 li .dropdown-menu li::before {
+            content: "\2192";
+            color: #C54E0A; }
       .site-header nav #menu-1 li .d-none {
         display: none; }
       .site-header nav #menu-1 li a {

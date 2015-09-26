@@ -31,7 +31,6 @@
   &::before{
     content: "\2193";
     color: #C54E0A;
-
   }
   &:hover::before{
     content: "\2197";
@@ -42,10 +41,14 @@
   .dropdown-menu {
     position: absolute;
 
-
     li{
       margin-top: .7em;
-      display: table;
+      display: block;
+
+      &::before{
+        content: "\2192";
+        color: #C54E0A;
+      }
 
 
 
