@@ -42,6 +42,9 @@ html {
         color: #27462B;
         font-size: 2em;
         text-align: center; }
+    .site-header nav #menu-1 .dropdown-toggle .dropdown-menu {
+      display: block;
+      color: red; }
 
 .site-footer .nav-footer {
   display: table;
