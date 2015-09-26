@@ -13,17 +13,49 @@
 
   li {
   display: inline-block;
-
   vertical-align: middle;
 
+.icon{
 
-  .dropdown-toggle {
+  &::before{
+        content: "\2192";
+        color:grey;
+      }
+      &:hover::before{
+        content: "\2198";
+        color: #C54E0A;
+      }
+}
+
+.open {
+  &::before{
+    content: "\2193";
+    color: #C54E0A;
+
+  }
+  &:hover::before{
+    content: "\2197";
+    color: #C54E0A;
+  }
+}
 
   .dropdown-menu {
-    display: block;
-    color: red;
+    position: absolute;
+
+
+    li{
+      margin-top: .7em;
+      display: table;
+
+
+
+
       }
     }
+      .d-none{
+        display: none;
+      }
+
 
   a {
     padding: 1em 1em 0em 2em;
@@ -78,6 +110,8 @@
         list-style: none;
         float: left;
         margin: 1em;
+
+
 
         a {
           text-decoration: none;

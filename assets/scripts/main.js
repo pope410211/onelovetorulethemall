@@ -3,7 +3,8 @@
 
 $('.dropdown-toggle').click(function(){
   console.log("Click me one more time");
-  $(this).parent().children('ul').toggleClass('dropdown-menu');
+  $(this).parent().children('ul').toggleClass('d-none dropdown-menu');
+  $(this).toggleClass('icon open');
 
 });
 

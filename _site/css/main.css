@@ -31,9 +31,25 @@ html {
     .site-header nav #menu-1 li {
       display: inline-block;
       vertical-align: middle; }
-      .site-header nav #menu-1 li .dropdown-toggle .dropdown-menu {
-        display: block;
-        color: red; }
+      .site-header nav #menu-1 li .icon::before {
+        content: "\2192";
+        color: grey; }
+      .site-header nav #menu-1 li .icon:hover::before {
+        content: "\2198";
+        color: #C54E0A; }
+      .site-header nav #menu-1 li .open::before {
+        content: "\2193";
+        color: #C54E0A; }
+      .site-header nav #menu-1 li .open:hover::before {
+        content: "\2197";
+        color: #C54E0A; }
+      .site-header nav #menu-1 li .dropdown-menu {
+        position: absolute; }
+        .site-header nav #menu-1 li .dropdown-menu li {
+          margin-top: .7em;
+          display: table; }
+      .site-header nav #menu-1 li .d-none {
+        display: none; }
       .site-header nav #menu-1 li a {
         padding: 1em 1em 0em 2em;
         text-decoration: none;
