@@ -26,6 +26,13 @@ padding-bottom: 5em;
     #see {
       text-align: center;
     }
+    a {
+      color: inherit;
+
+      &:hover{
+        color: yellow;
+      }
+    }
   }
 
   } // end body

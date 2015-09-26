@@ -17,6 +17,10 @@ html {
         color: #27462B; }
       html body .main-p #see {
         text-align: center; }
+      html body .main-p a {
+        color: inherit; }
+        html body .main-p a:hover {
+          color: yellow; }
 
 .site-header nav {
   display: table;
