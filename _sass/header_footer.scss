@@ -16,6 +16,15 @@
 
   vertical-align: middle;
 
+
+  .dropdown-toggle {
+
+  .dropdown-menu {
+    display: block;
+    color: red;
+      }
+    }
+
   a {
     padding: 1em 1em 0em 2em;
     text-decoration: none;
@@ -36,13 +45,7 @@
 
 
 
-.dropdown-toggle {
 
-.dropdown-menu{
-  display: block;
-  color: red;
-    }
-  }
 }
 
 
