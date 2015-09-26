@@ -50,8 +50,15 @@
         color: #C54E0A;
       }
 
+      &:hover::before {
+        content: "\2192";
+        position: absolute;
+        color: #C54E0A;
+      }
 
-
+      a {
+        padding: none;
+      }
 
       }
     }
@@ -130,6 +137,11 @@
   .copy {
     text-align: center;
     font-size: .75em;
+
+    a{
+
+      color: inherit;
+    }
 
 
 

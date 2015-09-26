@@ -51,6 +51,12 @@ html {
           .site-header nav #menu-1 li .dropdown-menu li::before {
             content: "\2192";
             color: #C54E0A; }
+          .site-header nav #menu-1 li .dropdown-menu li:hover::before {
+            content: "\2192";
+            position: absolute;
+            color: #C54E0A; }
+          .site-header nav #menu-1 li .dropdown-menu li a {
+            padding: none; }
       .site-header nav #menu-1 li .d-none {
         display: none; }
       .site-header nav #menu-1 li a {
@@ -79,3 +85,5 @@ html {
 .site-footer .copy {
   text-align: center;
   font-size: .75em; }
+  .site-footer .copy a {
+    color: inherit; }
