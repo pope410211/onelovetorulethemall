@@ -2,22 +2,18 @@
 layout: default
 ---
 
-<div class="home">
+<section class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <img id="splash" src=/assets/images/splash.png/>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="main-p">
+    <h1>Welcome to our Wedding Website!</h1>
+    <p>Hey, there! Thanks for stopping by! Here you'll find all the information that you need about the wedding, the location, the accomodations, etc. Have a question?
+      Chances are it will be answered here! Just take a look at the navigation above, and you'll
+      be able to see a little bit about us, get all the nitty, gritty <a href="#">details</a> of the big day, <a href="#">RSVP</a>, and more.</p>
+    <p id="see"> Looking forward to seeing you at our wedding!</p>
+  </div>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-</div>
+</section>

@@ -1,0 +1,23 @@
+{
+  "name": "onelovetorulethemall",
+  "version": "1.0.0",
+  "description": "Wedding Website for Nick and Cadnace",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pope410211/onelovetorulethemall.git"
+  },
+  "author": "Nick Pope <pope410211@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pope410211/onelovetorulethemall/issues"
+  },
+  "homepage": "https://github.com/pope410211/onelovetorulethemall#readme",
+  "dependencies": {
+
+    "jquery": "^2.1.4"
+  }
+}
