@@ -3,7 +3,7 @@
  nav {
    display: table;
    margin: 0 auto;
-   padding: 0 8em 0 0em;
+   padding: 0 5em 0 0em;
 
 
 #menu-1 {
@@ -13,19 +13,87 @@
 
   li {
   display: inline-block;
-  text-align: center;
   vertical-align: middle;
+
+.icon{
+
+  &::before{
+        content: "\2192";
+        color:grey;
+      }
+      &:hover::before{
+        content: "\2198";
+        color: $green;
+        cursor: pointer;
+      }
+      &:hover{
+          cursor: pointer;
+      }
+}
+
+.open {
+  &::before{
+    content: "\2193";
+    color: grey;
+  }
+  &:hover::before{
+    content: "\2197";
+    color: $green;
+  }
+}
+
+  .dropdown-menu {
+    position: absolute;
+    display: block;
+
+
+    li{
+      margin-top: .7em;
+      display: block;
+
+      // display: block;
+      // &::before{
+      //   content: "\2192";
+      //   color: #C54E0A;
+      // }
+      //
+      // &:hover::before {
+      //   content: "\2192";
+      //   position: absolute;
+      //   color: #C54E0A;
+      // }
+
+      a {
+        padding: none;
+      }
+
+      }
+    }
+      .d-none{
+        display: none;
+      }
+
 
   a {
     padding: 1em 1em 0em 2em;
     text-decoration: none;
+    color: inherit;
 
   &:hover {
     color: yellow;
   }
 
     }
+    p {
+      padding: 0em 1em 0 1em;
+      color: $green;
+      font-family: $fontbold;
+      font-size: 2em;
+      text-align: center;
+    }
   }
+
+
 
 
 }
@@ -61,8 +129,11 @@
         float: left;
         margin: 1em;
 
+
+
         a {
           text-decoration: none;
+          color: inherit;
 
         }
 
@@ -74,7 +145,13 @@
   .copy {
     text-align: center;
     font-size: .75em;
-    clear: both;
+
+    a{
+
+      color: inherit;
+    }
+
+
 
 
   }
