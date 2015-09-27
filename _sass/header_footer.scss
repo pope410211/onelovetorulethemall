@@ -24,6 +24,10 @@
       &:hover::before{
         content: "\2198";
         color: #C54E0A;
+        cursor: pointer;
+      }
+      &:hover{
+          cursor: pointer;
       }
 }
 
@@ -79,7 +83,8 @@
     }
     p {
       padding: 0em 1em 0 1em;
-      color: #27462B;
+      color: $green;
+      font-family: $fontbold;
       font-size: 2em;
       text-align: center;
     }

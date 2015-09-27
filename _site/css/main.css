@@ -1,5 +1,7 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento:400,700);
 html {
-  background-image: url("/assets/images/bg/rice.png"); }
+  background-image: url("/assets/images/bg/rice.png");
+  font-family: "Quattrocento", serif, 400; }
   html body {
     max-width: 80%;
     background-color: #fff;
@@ -14,7 +16,8 @@ html {
       html body .main-p h1 {
         margin-top: 1em;
         text-align: center;
-        color: #27462B; }
+        color: #27462B;
+        font-family: "Quattrocento", serif, 700; }
       html body .main-p #see {
         text-align: center; }
       html body .main-p a {
@@ -36,7 +39,10 @@ html {
         color: grey; }
       .site-header nav #menu-1 li .icon:hover::before {
         content: "\2198";
-        color: #C54E0A; }
+        color: #C54E0A;
+        cursor: pointer; }
+      .site-header nav #menu-1 li .icon:hover {
+        cursor: pointer; }
       .site-header nav #menu-1 li .open::before {
         content: "\2193";
         color: #C54E0A; }
@@ -68,6 +74,7 @@ html {
       .site-header nav #menu-1 li p {
         padding: 0em 1em 0 1em;
         color: #27462B;
+        font-family: "Quattrocento", serif, 700;
         font-size: 2em;
         text-align: center; }
 
