@@ -39,28 +39,22 @@ html {
         color: grey; }
       .site-header nav #menu-1 li .icon:hover::before {
         content: "\2198";
-        color: #C54E0A;
+        color: #27462B;
         cursor: pointer; }
       .site-header nav #menu-1 li .icon:hover {
         cursor: pointer; }
       .site-header nav #menu-1 li .open::before {
         content: "\2193";
-        color: #C54E0A; }
+        color: grey; }
       .site-header nav #menu-1 li .open:hover::before {
         content: "\2197";
-        color: #C54E0A; }
+        color: #27462B; }
       .site-header nav #menu-1 li .dropdown-menu {
-        position: absolute; }
+        position: absolute;
+        display: block; }
         .site-header nav #menu-1 li .dropdown-menu li {
           margin-top: .7em;
           display: block; }
-          .site-header nav #menu-1 li .dropdown-menu li::before {
-            content: "\2192";
-            color: #C54E0A; }
-          .site-header nav #menu-1 li .dropdown-menu li:hover::before {
-            content: "\2192";
-            position: absolute;
-            color: #C54E0A; }
           .site-header nav #menu-1 li .dropdown-menu li a {
             padding: none; }
       .site-header nav #menu-1 li .d-none {
