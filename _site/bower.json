@@ -1,6 +1,10 @@
 {
   "name": "onelovetorulethemall",
+<<<<<<< HEAD
   "version": "1.0.0--Proposal-Accepted",
+=======
+  "version": "1.0.1-Hotel-Info",
+>>>>>>> release/1.0.1-Hotel-Info
   "homepage": "https://github.com/pope410211/onelovetorulethemall",
   "authors": [
     "Nick Pope <pope410211@gmail.com>"

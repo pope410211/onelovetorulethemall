@@ -1,6 +1,10 @@
 {
   "name": "onelovetorulethemall",
+<<<<<<< HEAD
   "version": "1.0.0",
+=======
+  "version": "1.0.1",
+>>>>>>> release/1.0.1-Hotel-Info
   "description": "Wedding Website for Nick and Cadnace",
   "main": "index.js",
   "scripts": {
